@@ -11,9 +11,9 @@
   background: #eff4fd;
 }
 
-.logo{
-    height: 100px;
-    width: 100px;
+.logo {
+  height: 100px;
+  width: 100px;
 }
 
 nav {
@@ -25,39 +25,113 @@ nav {
   justify-content: space-between;
 }
 
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
 }
 
-nav ul li a{
+nav ul li a {
+  text-decoration: none;
+  color: darkcyan;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: orange;
+}
+
+.detail {
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+.detail h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+span {
+  color: darkcyan;
+}
+
+.detail p {
+  color: #555;
+  line-height: 22px;
+}
+
+.button-cv {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    display: inline-block;
+    /* width: 200px; */
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 18px;
+    /* padding-top: 20px; */
+    margin: 20px;
+    /* margin-top: 50px; */
+    /* height: 55px; */
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .button-cv:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .button-cv:focus {
+    outline: none;
+  }
+  
+  .button-cv.htm {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #40e495,
+      #30dd8a,
+      #2bb673
+    );
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  }
+
+@media (min-width: 768px) {
+  .button-cv {
+    padding: 12px 50px;
+  }
 }
 
-nav ul li a:hover{
-    color:darkcyan;
+.images{
+    width: 45%; 
+    height: 80%; 
+    position: absolute;
+    bottom: 0;
+    right: 100px;
 }
 
-.detail{
-    margin-left: 8%;
-    margin-top: 15%;
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
 }
 
-.detail h1{
-    font-size: 50px;
-    color: #212121;
-    margin-bottom: 20px;
+.images:hover .shape{
+    bottom: 40px;
 }
 
-span{
-    color: darkcyan;
+.images:hover .profile{
+    left: 45%;
 }
-
-.detail p{
-    color: #555;
-    line-height: 22px;
-}
-
