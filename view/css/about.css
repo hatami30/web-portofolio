@@ -4,8 +4,9 @@
   font-family: sans-serif;
 }
 
-.abt {
+#id {
   position: relative;
+  align-items: center;
   width: 100%;
   height: 100vh;
   /* background: #eff4fd; */
@@ -189,6 +190,7 @@ span {
 
 .images img {
   height: 100%;
+  width: auto;
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -208,4 +210,4 @@ span {
   .about-me {
     padding: 12px 50px;
   }
-} */
+}  */

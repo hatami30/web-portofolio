@@ -2,6 +2,7 @@
 
 form {
   max-width: 420px;
+  /* min-width: auto; */
   margin: 50px auto;
 }
 
@@ -63,6 +64,15 @@ nav ul li a:hover {
   padding-bottom: 20px;
   display: inline-block;
 }
+
+/* .form {
+  width: auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+} */
 
 .feedback-input {
   color: black;
