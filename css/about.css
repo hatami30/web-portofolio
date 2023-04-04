@@ -39,34 +39,28 @@ div#images.images {
 }
 
 .fa.fa-linkedin {
-  background-image: linear-gradient(
-    to right,
-    #2bb673,
-    #30dd8a,
-    #40e495,
-    #008b8b
-  );
+  background-image: linear-gradient(to right,
+      #2bb673,
+      #30dd8a,
+      #40e495,
+      #008b8b);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
 .fa.fa-instagram {
-  background-image: linear-gradient(
-    to right,
-    #2bb673,
-    #30dd8a,
-    #40e495,
-    #008b8b
-  );
+  background-image: linear-gradient(to right,
+      #2bb673,
+      #30dd8a,
+      #40e495,
+      #008b8b);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
 .fa.fa-globe {
-  background-image: linear-gradient(
-    to right,
-    #2bb673,
-    #30dd8a,
-    #40e495,
-    #008b8b
-  );
+  background-image: linear-gradient(to right,
+      #2bb673,
+      #30dd8a,
+      #40e495,
+      #008b8b);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }

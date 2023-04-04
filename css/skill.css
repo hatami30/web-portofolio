@@ -24,8 +24,8 @@
   position: relative;
 }
 
-.skill-box:hover > .skill-title::after,
-.skill-box:hover > .skill-title::before {
+.skill-box:hover>.skill-title::after,
+.skill-box:hover>.skill-title::before {
   width: 35px;
 }
 

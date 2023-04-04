@@ -66,6 +66,12 @@ nav ul li a:hover {
   display: inline-block;
 }
 
+#content h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
 #content h2 {
   font-size: 30px;
   color: #212121;
@@ -73,12 +79,6 @@ nav ul li a:hover {
   padding-bottom: 20px;
   margin-bottom: 20px;
   display: inline-block;
-}
-
-#content h1 {
-  font-size: 50px;
-  color: #212121;
-  margin-bottom: 20px;
 }
 
 span {
@@ -121,13 +121,11 @@ span {
 }
 
 .button.htm {
-  background-image: linear-gradient(
-    to right,
-    #008b8b,
-    #40e495,
-    #30dd8a,
-    #2bb673
-  );
+  background-image: linear-gradient(to right,
+      #008b8b,
+      #40e495,
+      #30dd8a,
+      #2bb673);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 
