@@ -53,6 +53,7 @@
 .card-body h4 {
   padding: 8px 4px;
   margin: 2px;
+  color: black;
 }
 
 .card-body h4:hover {
